@@ -135,7 +135,7 @@ if __name__ == '__main__':
     if not config:
         sys.exit(1)
 
-    pidfile = "/var/run/dorsalfunbot.pid"
+    pidfile = "/run/dorsalfunbot.pid"
 
     try:
         with open(pidfile, "r") as f:
